@@ -31,7 +31,7 @@ const createUser = async (req, res) => {
     });
 
     const savedUser = await user.save();
-    res.send(savedUser);
+    res.status(200).send(savedUser);
   } catch (err) {
     throw err;
   }
