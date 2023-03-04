@@ -6,3 +6,6 @@
 
 # model
  -model will help you communicate with those particular collections that will saved on db.
+
+ # app use
+ The app.use method is used to configure middleware functions that will be used for all incoming requests. The first middleware function is express.json(), which is used to parse incoming JSON data in the request body. The second middleware function is router, which is an instance of an Express Router object that defines routes for the application.
